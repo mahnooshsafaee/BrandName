@@ -1,0 +1,183 @@
+body{
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+.header {
+    padding: 40px;
+    background-color: #F6F6F6; 
+}
+.title {
+    font-size: 24px;
+    color: rgba(37, 43, 66, 1);
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 35px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 35px;
+}
+.search {
+    width: 24px;
+    height: 24px;
+}
+.shoping {
+    width: 23.22px;
+    height: 17.6px;
+}
+.menu{
+    width: 22.86px;
+    height: 13.71px;
+}
+.first-part{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    align-content: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font: normal;
+    margin-top: 96px;
+    margin-bottom: 100px;
+}
+a {
+    text-decoration: none;
+    color: #737373;
+}
+.register{
+    display: none;
+}
+.login{
+    font-size: 14px;
+    color: #23A6F0;
+}
+.member a{
+    color: white;
+    padding-right: 15px;
+}
+.member{
+background-color: #23A6F0;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 5px;
+font-size: 14px;
+margin-left: 45px;
+}
+.financial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./assets/circle1.svg");
+    background-repeat: no-repeat;
+    background-attachment:lokal;
+    background-position:left;
+}
+.financ{
+    font-size: 40px;
+    font-weight: bold;
+    color:#252B42;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 45px;
+    margin-right: 45px;
+    max-width: 324px;
+}
+.text1{
+    font-size: 20px;
+    color:#737373;
+    text-align: center;
+    margin-left: 67px;
+    margin-right: 67px;
+    max-width: 280px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.quote{
+    background-color:#23A6F0;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 37px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-bottom: 30px;
+}
+.lern{
+    font-size: 14px;
+    color:#23A6F0;
+    border: 1px solid #23A6F0;
+    border-radius: 37px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-bottom: 50px;
+ }
+.quotelern{
+    display: flex;
+    flex-direction: column;
+}
+.mobile{
+    width:100%;
+}
+
+@media( min-width: 1024px) {
+    .icons{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+    }
+    .register{
+        display: flex;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        border: 1px solid black;
+        width: auto;
+        height: 91px;
+        margin-left: 59px;
+        margin-right: 59px;
+    }
+    .title{
+        text-shadow:0px 0px 0px;
+    }
+    .mobile{
+        width:40%;
+    }
+    .financ{
+        font-size: 58px;
+        max-width: 509px;
+    }
+    .assistance{
+        display: flex;
+        flex-direction: row;
+    }
+    .financial{
+        display: flex;
+        justify-content:flex-start ;
+    }
+}
