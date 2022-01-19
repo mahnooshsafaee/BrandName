@@ -136,6 +136,48 @@ margin-left: 45px;
 .mobile{
     width:100%;
 }
+.strategy{
+    display: flex;
+    flex-direction: column;
+}
+.better{
+
+    font-size: 40px;
+}
+.problem{
+    font-size: 14px;
+}
+.funds{
+    display: flex;
+    flex-direction: column;
+    gap:30
+}
+.investment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 142px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #23A6F0;
+    width: 100%;
+    height: 142px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.support span{
+    color: #FFFFFF;
+    ;
+}
 
 @media( min-width: 1024px) {
     .icons{
